@@ -1,0 +1,121 @@
+{
+    "context": {
+        "role": "small blind", 
+        "num_players": 2,
+        "position": 1,
+        "bankroll": {
+            "small blind": 100,
+            "big blind": 200
+        },
+        "board": [],
+        "pocket_cards": ["9s", "Ac"]
+    },
+
+    "action_history": {},
+
+    "next_action": {
+        "role": "small blind",
+        "stage": "preflop",
+        "actions": "blind bet"
+    }
+}
+
+{
+    "context": {
+        "role": "big blind",
+        "num_players": 2,
+        "position": 2,
+        "bankroll": {
+            "small blind": 100,
+            "big blind": 200
+        },
+        "board": [],
+        "pocket_cards": ["9c", "As"]
+    },
+
+    "actions_history": {
+        "1": {
+            "role": "small blind",
+            "stage": "preflop",
+            "action": "blind bet"
+        }
+    },
+
+    "next_action": {
+        "role": "big blind",
+        "stage": "preflop",
+        "actions": "blind bet"
+    }
+}
+
+{
+    "context": {
+        "role": "small blind", 
+        "num_players": 2,
+        "position": 1,
+        "bankroll": {
+            "small blind": 100,
+            "big blind": 200
+        },
+        "board": [],
+        "pocket_cards": ["9s", "Ac"]
+    },
+
+    "action_history": {
+        "1": {
+            "role": "small blind",
+            "stage": "preflop",
+            "action": "blind bet"
+        },
+        "2":{
+            "role": "big blind",
+            "stage": "preflop",
+            "actions": "Blind Bet"
+        }
+    },
+
+    "next_action": {
+        "role": "small blind",
+        "stage": "preflop",
+        "actions": "raise"
+    }
+}
+
+
+{
+    "context": {
+        "role": "big blind",
+        "num_players": 2,
+        "position": 2,
+        "bankroll": {
+            "small blind": 100,
+            "big blind": 200
+        },
+        "board": [],
+        "pocket_cards": ["9c", "As"]
+    },
+
+    "actions_history": {
+        "1": {
+            "role": "small blind",
+            "stage": "preflop",
+            "action": "blind bet"
+        },
+        "2":{
+            "role": "big blind",
+            "stage": "preflop",
+            "actions": "blind bet"
+        },
+        "3":{
+            "role": "small blind",
+            "stage": "preflop",
+            "actions": "raise"
+        }
+    },
+
+    "next_action": {
+        "role": "big blind",
+        "stage": "preflop",
+        "actions": "raise"
+    }
+}
